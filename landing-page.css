@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 50px;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.logo {
+    width: 70px;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.brand-name {
+    text-align: center;
+    color: bisque;
+}
+
+.services-link {
+    padding-left: 200px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 50px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 350px;
+    padding-left: 70px;
+}
+
+.title {
+    font-size: 32px;
+    padding-bottom: 20px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    color: #E5E7EB;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.login-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.cover-picture {
+    width: 550px;
+    height: 300px;
+}
+
