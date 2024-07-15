@@ -22,3 +22,12 @@
 <li> using CSS to style the project to make it more presentable</li>
 <li>Publishing my Landing Page website to be accesible to others via the web</li>
 </ul>
+
+<h4> Acknowledgments </h4>
+<ul>
+<li> Special thanks to Odin Project Community and Team for this great opportunity to me </li>
+<li> Credit to Khanchit Khirisutchalual and others in www.istockphoto.com, which enable me getting the images and video
+</ul>
+
+<h4> Author </h4>
+<p> Edeh Maligue Ifeanyi </p>
