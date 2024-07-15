@@ -7,6 +7,7 @@ body {
 p {
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -36,7 +37,6 @@ p {
 }
 
 .brand-name {
-    text-align: center;
     color: bisque;
 }
 
@@ -49,6 +49,10 @@ a {
     text-decoration: none;
     padding-right: 50px;
     color: #E5E7EB;
+}
+
+a:last-of-type {
+    padding-right: 0;
 }
 
 .hero {
@@ -86,4 +90,67 @@ a {
     width: 550px;
     height: 300px;
 }
+
+
+.features-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.features-service {
+    margin-left: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.features-service > p {
+    width: 330px;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+video {
+    margin-top: -1px;
+    width: 350px;
+    height: 200px;
+}
+
+#testimonials {
+    background: #E5E7EB;
+    padding: 32px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 16px;
+}
+
+.testimonial {
+    margin-bottom: 24px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    margin: 8px 0;
+}
+
+
+
 
